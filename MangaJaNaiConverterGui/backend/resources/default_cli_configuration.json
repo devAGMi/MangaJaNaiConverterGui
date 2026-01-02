@@ -18,7 +18,7 @@
         "InputFolderPath": "",
         "OutputFilename": "%filename%",
         "OutputFolderPath": "",
-        "OverwriteExistingFiles": false,
+        "OverwriteExistingFiles": "",
         "UpscaleImages": true,
         "UpscaleArchives": true,
         "ResizeHeightAfterUpscale": 2160,
