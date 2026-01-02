@@ -3,10 +3,10 @@ name = "mangajanaiconvertergui"
 dynamic = ["version"]
 dependencies = [
   "chainner_ext==0.3.10",
-  "numpy==2.2.5",
+  "numpy",
   "opencv-python==4.11.0.86",
   "packaging==25.0",
-  "psutil==6.0.0",
+  "psutil",
   "pynvml==11.5.3",
   "pyvips==3.0.0",
   "pyvips-binary==8.16.1",
@@ -14,8 +14,8 @@ dependencies = [
   "sanic==24.6.0",
   "spandrel_extra_arches==0.2.0",
   "spandrel==0.4.1",
-  "torch==2.9.1",
-  "torchvision==0.24.1",
+  "torch",
+  "torchvision",
 ]
 authors = [{name = "the-database"}]
 description = "Upscaling manga images and archives with PyTorch models."
